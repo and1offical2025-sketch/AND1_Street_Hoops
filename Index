@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AND1: Street Hoops</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+  <script src="menu.js" defer></script>
+  <script src="game.js" defer></script>
+  <script src="player.js" defer></script>
+  <script src="audio.js" defer></script>
+</head>
+<body>
+  <div id="loading-screen">
+    <img src="images/and1_logo.png" class="logo" />
+    <p class="powered">Powered by Carnell & Elijah</p>
+  </div>
+  <div id="main-menu" class="hidden">
+    <h1>AND1: Street Hoops</h1>
+    <button id="play">Play 1v1</button>
+    <button id="custom">My Player</button>
+    <button id="upgrade">Upgrades</button>
+    <button id="badges">Badges</button>
+    <button id="settings">Settings</button>
+  </div>
+  <canvas id="gameCanvas" class="hidden"></canvas>
+</body>
+</html>
